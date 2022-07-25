@@ -84,3 +84,16 @@ header{
 .bars > i {
     font-size: 35px;
 }
+
+.file {
+    color: #0084fd;
+}
+
+.card-icon {
+    padding-bottom: 30px;
+}
+
+.card > span {
+    font-size: 80px;
+    padding: 20px;
+}
