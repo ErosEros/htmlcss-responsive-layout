@@ -13,4 +13,38 @@
     width: 100%;
   }
 
-  
+
+/* utilities */
+.flex  {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+header{
+    position: fixed;
+    background-color: #0084fd;
+    width: 100%;
+    min-height: 80px;
+    /* line-height: 80px; */
+  }
+
+  .container-header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+  }
+
+  .logo-header { 
+    /* width: 20%; */
+  }
+
+  .bars {
+    color: white;
+    /* width: 10%; */
+  }
