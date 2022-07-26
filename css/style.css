@@ -393,6 +393,19 @@ padding-bottom: 50px;
         padding-bottom: 30px;
         color: #9593e6;
     }
-}
 
+    .container-section-6  p {
+        margin: 0px 100px;
+    }
+
+    .container-section-6 input {
+        width: 25%;
+    }
+
+    .container-footer p {
+        margin: 10px 150px;
+    }
+
+}
+    
 
