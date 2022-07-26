@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
 
 body {
@@ -72,9 +72,8 @@ header {
     padding-top: 100px;
 }
 
-.box-card>img {
-    position: relative;
-    top: 8px;
+.phone-img {
+    display: flex;
 }
 
 .card>h2 {
@@ -200,11 +199,11 @@ header {
     color: #9593e6;
 }
 
-.container-section-4 {
+.section-4{
     background-color: #9593e6;
 }
 
-.container-section-4>h1 {
+.title-section-4 {
     text-align: center;
     font-size: 40px;
     padding: 40px;
@@ -422,7 +421,7 @@ header {
 /* dekstop */
 @media screen and (min-width:1200px) {
     .container-header {
-        margin: 0px 80px;
+        margin: 0px 120px;
     }
 
     .bars {
@@ -435,12 +434,15 @@ header {
 
     .menu-list>a {
         padding: 0px 10px;
+        color: white;
+        text-decoration: none;
     }
 
-    .menu-list>a {
+    .menu-list>input {
         padding: 5px;
         border-radius: 20px;
         border: none;
+
     }
 
     .first-card {
@@ -452,10 +454,77 @@ header {
         color: #0084fd;
         margin-bottom: 30px;
     }
-    
+
     .box-card>img {
-        position: relative;
-        top: 24px;
+        margin-top: 105px;
+    }
+
+    .box-card {
+        text-align: start;
+    }
+
+    .container-section-1 {
+        margin: 0px 100px;
+    }
+
+    .button-blue {
+        margin: 30px 0px;
+    }
+
+    .section-2 {
+        background-color: #9593e6;
+    }
+
+    .container-section-2 {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 150px;
+    }
+
+    .box-1-section-2>img {
+        padding-bottom: 150px;
+       
+    }
+
+    .box-2-section-2 {
+        margin-top: 150px;
+    }
+
+    .card-section-4 {
+        width: calc(100% / 3 - 80px);
+    }
+
+    .container-section-3 {
+        margin: 0px 150px;
+    }
+
+    .container-section-4 {
+        padding: 0px 100px;
+    }
+
+    .container-section-5 {
+        padding: 0px 100px;
+    }
+
+    .text-section-5 {
+        width: 60%;
+    }
+
+    .box-photo-section-5 {
+        width: 35%;
+    }
+
+    .container-section-6 {
+        padding: 30px 250px;
+    }
+    
+    .container-footer {
+        padding: 30px 250px;
+    }
+
+    .header-section-3 {
+        padding-top: 30px;
     }
 
 }
+/* / dekstop */
