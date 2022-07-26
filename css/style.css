@@ -376,6 +376,23 @@ padding-bottom: 50px;
         width: calc( 100% / 2 - 80px);
         flex-wrap: wrap;
     }
+
+    .container-section-5 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .box {
+        width: calc(100% / 2 - 80px);
+        margin: 0;
+    }
+
+    .box > h1 {
+        font-size: 40px;
+        padding-bottom: 30px;
+        color: #9593e6;
+    }
 }
 
 
