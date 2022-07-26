@@ -4,22 +4,22 @@
     margin: 0px;
     padding: 0px;
     border: 2px dashed red;
-  }
-  
-  body {
-    font-family: sans-serif;
-  }
-  
-  img{
-    width: 100%;
-  }
+}
 
-  body {
+body {
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+body {
     font-family: 'PT Sans', sans-serif;
-  }
+}
 
 /* flex */
-.flex  {
+.flex {
     display: flex;
 }
 
@@ -42,38 +42,38 @@
 }
 
 /* header */
-header{
+header {
     position: fixed;
     background-color: #0084fd;
     width: 100%;
     min-height: 80px;
     z-index: 1;
-  }
+}
 
-  .container-header {
+.container-header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 
-  }
+}
 
-  .bars {
+.bars {
     color: white;
-  }
+}
 
-  /* main */
+/* main */
 
-  /* section-1 */
- .container-section-1 {
+/* section-1 */
+.container-section-1 {
     padding-top: 100px;
- }
+}
 
- .card > h2 {
+.card>h2 {
     color: #0084fd;
     margin-bottom: 30px;
- }
+}
 
- .button-blue {
+.button-blue {
     margin: 30px;
     padding: 10px;
     width: 50%;
@@ -81,9 +81,9 @@ header{
     border-radius: 20px;
     background-color: #356dfa;
     color: white;
- }
+}
 
-.bars > i {
+.bars>i {
     font-size: 35px;
 }
 
@@ -95,7 +95,7 @@ header{
     padding-bottom: 30px;
 }
 
-.card > span {
+.card>span {
     font-size: 80px;
     padding: 20px;
 }
@@ -104,14 +104,14 @@ header{
 .container-section-2 {
     background-color: #9593e6;
     margin-top: 50px;
-    padding: 50px 0px; 
+    padding: 50px 0px;
 }
 
-.box-1-section-2 > h1 {
+.box-1-section-2>h1 {
     padding: 30px 0px;
 }
 
-.box-1-section-2 > img {
+.box-1-section-2>img {
     width: 70%;
     align-self: center;
     margin: 30px;
@@ -133,7 +133,7 @@ header{
     padding: 20px;
 }
 
-.box-2-section-2 > span {
+.box-2-section-2>span {
     color: black;
     padding: 10px 20px;
     border-radius: 100%;
@@ -142,25 +142,26 @@ header{
     background-color: #9593e6;
 }
 
-.box-2-section-2 > img {
+.box-2-section-2>img {
     margin: 30px;
 }
 
-.box-2-section-2 > h2 {
+.box-2-section-2>h2 {
     padding-bottom: 30px;
 }
 
+/* section-3 */
 .container-section-3 {
     margin: 40px;
     line-height: 30px;
     text-align: center;
 }
 
-.header-section-3 > h1 {
+.header-section-3>h1 {
     line-height: 40px;
     padding: 40px;
     font-size: 30px;
-    color:#9593e6;
+    color: #9593e6;
 }
 
 .card-section-3 {
@@ -173,7 +174,7 @@ header{
 
 .card-section-3 p {
     padding: 30px 10px;
-    
+
 }
 
 .card-section-3 img {
@@ -187,31 +188,31 @@ header{
     line-height: 30px;
     border-radius: 25px;
     padding: 20px 10px;
-    color:  #9593e6;
+    color: #9593e6;
 }
 
 .container-section-4 {
-    background-color:#9593e6;
+    background-color: #9593e6;
 }
 
-.container-section-4 > h1 {
+.container-section-4>h1 {
     text-align: center;
     font-size: 40px;
     padding: 40px;
     color: white;
 }
 
-.card-section-4 > h1 {
+.card-section-4>h1 {
     padding: 30px 15px;
     font-size: 40px;
 }
 
-.card-section-4 > p {
+.card-section-4>p {
     padding: 30px 15px;
     color: black;
 }
 
-.card-section-4 > h2 {
+.card-section-4>h2 {
     padding: 15px;
 }
 
@@ -223,4 +224,47 @@ header{
     background-color: #9593e6;
     color: white;
     margin: 5px 15px;
- }
+}
+
+/* section-5 */
+.container-section-5 {
+    margin: 40px;
+    line-height: 30px;
+    padding: 15px 0px;
+}
+
+.container-section-5>p {
+    margin-top: 40px;
+
+}
+
+.container-section-5>h1 {
+    font-size: 40px;
+    color: #9593e6;
+    padding-top: 30px;
+}
+
+.box-photo-section-5 {
+    margin-top: 40px;
+}
+
+.box-photo-section-5 > h2 {
+    font-size: 28px;
+    color: #9593e6;
+    margin-top: 35px;
+}
+
+.button-violet-5 {
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 20px;
+    background-color: #9593e6;
+    color: white;
+    margin: 30px 0px;
+}
+
+.box-photo-section-5 > img {
+    clip-path: circle();
+    width: 50%;
+}
